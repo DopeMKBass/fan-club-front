@@ -22,3 +22,22 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Vite & TypeScript
+.vite/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*
+
+# Build outputs
+build/
+coverage/
+
+# Lock files (optional)
+# package-lock.json
+# yarn.lock
+
+# Keep example env
+!.env.example
